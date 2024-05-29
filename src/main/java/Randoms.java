@@ -20,12 +20,7 @@ public class Randoms implements Iterable<Integer> {
             @Override
             public boolean hasNext() {
                 nextNumber = random.nextInt(max) + min;
-
-                if (true) {
-                    return true;
-                } else {
-                    return false;
-                }
+                return true;
             }
 
             @Override
