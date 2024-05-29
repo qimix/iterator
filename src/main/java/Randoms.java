@@ -21,7 +21,7 @@ public class Randoms implements Iterable<Integer> {
             public boolean hasNext() {
                 nextNumber = random.nextInt(max) + min;
 
-                if (nextNumber != 0) {
+                if (true) {
                     return true;
                 } else {
                     return false;
